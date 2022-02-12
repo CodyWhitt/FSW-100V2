@@ -1,0 +1,49 @@
+.main-headline {
+    color: blue;
+    text-align: center;    
+}
+
+.second-headline {
+    text-align: center;
+}
+
+.secondary-title {
+    color: green;
+}
+
+* {
+    background-color: cyan;
+}
+
+.headlines { 
+    font-family: Georgia;
+}
+
+p {
+    line-height: 20px;
+}
+
+b {
+    color: lightcoral;
+}
+
+a {
+    text-decoration:none
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.image {
+    float: left;
+    margin: 8px
+}
+
+ol {
+    list-style-type: disc;
+}
