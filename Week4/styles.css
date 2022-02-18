@@ -1,0 +1,44 @@
+html {
+    background-image: url("https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-color: grey;
+}
+
+nav {
+    background-color: beige;
+    margin: -16px 0px 0px -8px;
+    position: fixed;
+    padding: 5px;
+    border: solid 2px;
+}
+
+.postbox {
+    margin: 10px 200px 10px 200px;
+    height: 155px;
+    padding: 20px;
+    background-color: lightseagreen;
+    border: solid 2px;
+    border-radius: 5px;
+}
+
+.postbox img {
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+.postbox h6 {
+    margin: 0px 0px 10px 0px
+}
+
+h3 {
+    margin: 0px 0px 10px 0px;
+    background: none;
+}
+
+a {
+    background: none;
+}
+
+footer {
+    color: white;
+}
