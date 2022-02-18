@@ -13,11 +13,11 @@ nav {
 
 .postbox {
     margin: 10px 200px 10px 200px;
-    height: 155px;
     padding: 20px;
     background-color: lightseagreen;
     border: solid 2px;
-    border-radius: 5px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .postbox img {
