@@ -11,8 +11,9 @@
     color: green;
 }
 
+/* corrected color */
 * {
-    background-color: cyan;
+    background-color: lightcyan;
 }
 
 .headlines { 
@@ -35,7 +36,8 @@ a:hover {
     text-decoration:underline;
 }
 
-.caps {
+/* changed to ID */
+#caps {
     text-transform: uppercase;
 }
 
@@ -44,6 +46,7 @@ a:hover {
     margin: 8px
 }
 
-ol {
+/* parent selecting li child */
+.list li {
     list-style-type: disc;
 }
