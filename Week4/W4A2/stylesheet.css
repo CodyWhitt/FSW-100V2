@@ -80,3 +80,13 @@ button {
     border-style: outset;
     justify-self: center;
 }
+
+footer {
+    background-color: black;
+    margin: -20px;
+    padding: 200px;
+    color: white;
+    font-family: sans-serif;
+    padding: 100px 0px;
+    text-align: center;
+}
