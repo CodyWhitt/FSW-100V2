@@ -1,0 +1,82 @@
+html {
+    background-image:url("images/classic-background.png");
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav {
+    width: 100%;
+    background-color: slategray;
+    padding: 10px;
+    position: fixed;
+    margin: -21px 0px 0px -8px;
+    text-align: center;
+    height: 25px;
+}
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    font-family: Anton, sans-serif;
+    color: black;
+}
+
+nav a:hover {
+    padding: 18px;
+    background-color: darkgrey;
+}
+
+h1 {
+    width: 100%;
+    background-color:lightcoral;
+    margin-left: -20px;
+    padding:50px;
+    text-align: center;
+    font-family:sans-serif;
+    border-style: solid;
+    position: center;
+}
+
+h2 {
+    background-color: lightslategray;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.info {
+    background-color: grey;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 200px 0px;
+    text-align: center;
+    font-family: orbitron;
+    font-size: 60px;
+    color: gold;
+    max-width: 2000px;
+    margin: 40px auto;
+    align-items: center;
+}
+
+#question {
+    background-image: url("images/under_car.jpeg");
+}
+
+#free {
+    background-image: url("images/under_car_2.jpeg")
+}
+
+#simple {
+    background-image: url("images/spring.jpeg")
+}
+
+#customer {
+    background-image: url("images/customer.jpeg")
+}
+
+button {
+    display: block;
+    text-align: center;
+    background-color: aquamarine;
+    border-style: outset;
+    justify-self: center;
+}
