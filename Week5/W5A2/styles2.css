@@ -1,0 +1,133 @@
+@media (max-width: 450px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 4, 1fr;
+        row-gap: 10px;
+    }
+
+    .header {
+        background-color: orange;
+        border-radius: 4px;
+        padding-left: 10px;
+    }
+
+    .sideBar {
+        background-color: blue;
+        border-radius: 4px;
+        padding-left: 10px;
+    }
+    
+    .sideBar2 {
+        background-color: blue;
+        border-radius: 4px;
+        padding-left: 10px;
+    }
+
+    .content {
+        background-color: green;
+        border-radius: 4px;
+        padding-left: 10px;
+    }
+
+    .footer {
+        background-color: pink;
+        border-radius: 4px;
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 1000px) {
+    .grid-container {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 20% auto;
+        grid-template-areas: 
+        "header header"
+        "sidebar content"
+        "sidebar2 sidebar2"
+        "footer footer";
+    }
+
+    .header {
+        grid-area: header;
+        background-color: orange;
+        border-radius: 4px;
+        padding-left: 10px
+    }
+
+    .sideBar {
+        grid-area: sidebar;
+        background-color: blue;
+        border-radius: 4px;
+        padding-left: 10px
+    }
+    
+    .sideBar2 {
+        grid-area: sidebar2;
+        background-color: blue;
+        border-radius: 4px;
+        padding-left: 10px
+    }
+
+    .content {
+        grid-area: content;
+        background-color: green;
+        border-radius: 4px;
+        padding-left: 10px
+    }
+
+    .footer {
+        grid-area: footer;
+        background-color: pink;
+        border-radius: 4px;
+        padding-left: 10px
+    }
+}
+
+@media (min-width: 1000px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 20% auto 20%;
+        grid-template-areas: 
+        "header header header"
+        "sidebar content sidebar2"
+        "sidebar content sidebar2"
+        "footer footer footer";
+        grid-gap: 10px;
+    }
+
+    .header {
+        grid-area: header;
+        background-color: orange;
+        border-radius: 4px;
+        padding-left: 10px
+    }
+
+    .sideBar {
+        grid-area: sidebar;
+        background-color: blue;
+        border-radius: 4px;
+        padding-left: 10px
+    }
+    
+    .sideBar2 {
+        grid-area: sidebar2;
+        background-color: blue;
+        border-radius: 4px;
+        padding-left: 10px
+    }
+
+    .content {
+        grid-area: content;
+        background-color: green;
+        border-radius: 4px;
+        padding-left: 10px
+    }
+
+    .footer {
+        grid-area: footer;
+        background-color: pink;
+        border-radius: 4px;
+        padding-left: 10px
+    }
+}
