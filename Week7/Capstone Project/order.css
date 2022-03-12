@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+#topper h1 {
+    font-family: 'bebas neue';
+}
+
+html {
+    background-color: black;
+    color: beige;
+}
+
+@media (max-width:550px) {
+    #topper {
+        background-color: cadetblue;
+        margin: 0 auto;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+
+    #topper h1 {
+        padding-left: 20px;
+    }
+
+    #topper:hover {
+        color: black;
+    }
+
+    div a {
+        color: beige;
+        text-decoration: none;
+    }
+
+    #topSpace{
+        margin-top: 100px;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width:550px) {
+    #topper {
+        background-color: cadetblue;
+        margin: 0 auto;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        display: flex;
+        justify-content: space-around;
+        z-index: 100;
+        align-items: center;
+    }
+
+    #topper h1 {
+        padding-left: 20px;
+    }
+
+    #topper:hover {
+        color: black;
+    }
+
+    header div a {
+        font-size: x-large;
+        text-decoration: none;
+        color: beige;
+    }
+
+    #topSpace{
+        margin-top: 100px;
+    }
+
+    #topper h1 {
+        padding-left: 20px;
+    }
+
+    #topper button {
+        margin-right: 10px;
+    }
+
+    form {
+        display: grid;
+        justify-content: center;
+        grid-gap: 20px;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+li img{
+    height: 150px;
+}
