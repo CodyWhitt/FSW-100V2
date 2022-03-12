@@ -27,7 +27,7 @@
         padding-left: 20px;
     }
 
-    #topper:hover {
+    #homeButton:hover {
         color: black;
     }
 
@@ -100,7 +100,7 @@
         align-items: center;
     }
 
-    #topper:hover {
+    #homeButton:hover {
         color: black;
     }
 
@@ -166,6 +166,7 @@
         background-repeat: no-repeat;
         background-position: center;
         display: flex;
+        color: beige;
         justify-content: center;
     }
 
@@ -181,10 +182,9 @@
         z-index: 100;
         align-items: center;
     }
-
     
-    #topper:hover {
-        color: black;
+    #homeButton:hover {
+        color:black;
     }
 
     #topper h1 {
