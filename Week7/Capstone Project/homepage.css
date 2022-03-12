@@ -169,8 +169,66 @@
         justify-content: center;
     }
 
+    #topper {
+        background-color: cadetblue;
+        margin: 0 auto;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        display: flex;
+        justify-content: space-around;
+        z-index: 100;
+        align-items: center;
+    }
+
+    
+    #topper:hover {
+        color: black;
+    }
+
+    #topper h1 {
+        padding-left: 20px;
+    }
+
+    header div a {
+        font-size: x-large;
+        text-decoration: none;
+        color: beige;
+    }
+
     #headerimg {
         display: none;
+    }
+
+    #mainHook {
+        background-color: cadetblue;
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #mainHook h2 {
+        padding-left: 10px;
+    }
+
+    #mainHook button {
+        margin-right: 10px;
+    }
+
+    #poolBook {
+        margin-top: 40px;
+    }
+
+    li  {
+        max-width: 50%;
+        background-color: grey;
+        list-style: none;
+        margin: 4vh auto;
+        text-align: center;
+        padding: 20px;
     }
 
     main {
@@ -190,6 +248,7 @@
     }
 
     main img {
+        width: 50vw;
         grid-area: sidebar2;
     }
 
@@ -203,7 +262,7 @@
         "grabber grabber"
         "sidebarL1 sidebar2"
         "sidebarL2 sidebar2"
-        "sidebarL3 sidebar2";
+        "sidebarL3 sidebar2"
     }
 
     main {
@@ -215,8 +274,15 @@
         font-size: xx-large;
     }
 
+    h2{
+        color: beige;
+    }
+
     footer {
+        color: beige;
         background-color: black;
         padding:30px;
+        text-align: center;
+        width: 90vw;
     }
 }
